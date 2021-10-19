@@ -1,0 +1,116 @@
+.container{
+    display: flex;
+    
+    width: 30%;
+    height: 10%;
+    top: 3%;
+    bottom: 3%;
+    justify-content: center;
+    margin-left: 35%;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+
+
+.head{
+    color:black;
+    display: inline-block;
+    width: 130px;
+    height: 1px;
+    
+    
+}
+.head1{
+    display: inline;
+}
+.head2{
+    color:black;
+    display: inline-block;
+    width: 120px;
+    height: 2px;
+}
+.container1{
+    display: flex;
+
+    width: 30%;
+    height: 5%;
+    margin-left: 35%; 
+    justify-content: center;
+    align-items: center;
+}
+.fa1{
+    display: inline-block;
+}
+
+
+.paragraph{
+    display: inline-block;
+}
+/*.head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+
+}
+.head:before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+.head:after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+.head1{
+    background: #fff;
+}*/
+
+
+.list-container{
+align-items: center;
+ width: 500px;
+ height: 350px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+.list-card{
+    position: relative;
+    left: 170px;
+    width: 35%;
+    height: 70%;
+    padding-right: 3px;
+    text-align: center;
+    border: 1px solid red;
+    box-shadow: 1px 2px 3px;
+    border-radius: 12px;
+}
+.text{
+    color:orange;
+    text-decoration: line-through solid red;
+}
+.checkbox{
+    display: inline-flex;
+}
+.fa{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
